@@ -7,8 +7,19 @@ Content-Type: application/json
 {
     "name": "felix",
     "surname": "hola",
-    "email": "prueba@",
+    "email": "c",
     "password": "prueba"
 }
 ###
-GET http://localhost:3000/api/users/1
+GET http://localhost:3000/api/users/6091b57b4f1ba459a8d20482
+
+###
+DELETE http://localhost:3000/api/users/6091b7ef0118fe3a80eae77f
+
+###
+PUT  http://localhost:3000/api/users/6091b57b4f1ba459a8d20482
+Content-Type: application/json
+
+{
+    "name": "pepe",
+}
